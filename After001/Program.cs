@@ -21,6 +21,15 @@ namespace After001
             System.Console.WriteLine("{0} {1}", man.FirstName, man.LastName);
 
             System.Console.Read();
+
+            string[] vrouw = new string[] { "Clara", "Julia", "Bonita" };
+            int i=0;
+            while (i < vrouw.Length)
+            {
+                System.Console.WriteLine("Ik ben: " + vrouw[i]);
+                i++;
+            }
+
         }
 
         void List()
